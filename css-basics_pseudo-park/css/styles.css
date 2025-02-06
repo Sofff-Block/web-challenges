@@ -12,6 +12,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: blueviolet;
+}
+
 .park {
   margin: 16px;
   border: 2px dashed silver;
@@ -22,7 +26,40 @@
 
 .animal {
   padding: 16px;
+  font-size: 32px;
+}
 
+
+.giraffe {
+text-align:center
+}
+.giraffe:hover {
+  background-color: lightgreen;
+}
+
+.dino {
+  text-align:right
+  }
+.dino:hover {
+  background-color: lightsalmon;
+}
+
+
+.crocodile:hover {
+  background-color: lightblue;
+}
+
+.dino:hover 
+
+  .animal crocodile {
+    padding: 16px;
+  }
+  
+.animal giraffe {
+
+}
+
+}
   /*
     The animals are very small.
     The size of the emojis is controlled via the font size.
