@@ -36,29 +36,51 @@ main {
  */
 
 .box--top-left {
+  position: absolute;
+  top: Opx;
   background-color: #aed6f1;
 }
 
 .box--top-center {
+  position: absolute;
+  top: 0px;
+  right: 40%;
+  text-align: center;
   background-color: #85c1e9;
 }
 
 .box--top-right {
+  position: absolute;
+  right: 0px;
   background-color: #5dade2;
 }
 
 .box--center {
+  position: absolute;
+  left: 210px;
+  right: 210px;
+  top: 40%;
   background-color: #3498db;
 }
 
 .box--bottom-left {
+  position: absolute;
+  bottom: 0%;
+  left: 0px;
   background-color: #2874a6;
 }
 
 .box--bottom-center {
+  position: absolute;
+  bottom: 0%;
+  right: 40%;
   background-color: #21618c;
 }
 
 .box--bottom-right {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+
   background-color: #1b4f72;
 }
