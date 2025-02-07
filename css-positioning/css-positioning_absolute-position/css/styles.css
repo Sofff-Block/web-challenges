@@ -44,6 +44,8 @@ main {
 .box--top-center {
   position: absolute;
   top: 0px;
+  left: 50%;
+  translate: -50% 0;
   right: 40%;
   text-align: center;
   background-color: #85c1e9;
@@ -57,9 +59,9 @@ main {
 
 .box--center {
   position: absolute;
-  left: 210px;
-  right: 210px;
-  top: 40%;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
   background-color: #3498db;
 }
 
@@ -73,7 +75,8 @@ main {
 .box--bottom-center {
   position: absolute;
   bottom: 0%;
-  right: 40%;
+  left: 50%;
+  translate: -50% 0;
   background-color: #21618c;
 }
 
