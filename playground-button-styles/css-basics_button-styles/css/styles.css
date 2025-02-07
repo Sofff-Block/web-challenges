@@ -35,7 +35,7 @@ Make sure not to put your code into the comments, because then nothing will happ
 
 .button1 {
   border: 100px;  
-  border-radius; 20px;
+  border-radius: 20px;
 }
 
 .button2 {
