@@ -44,8 +44,8 @@ h2 {
 }
 
 .tech-stack__list-item {
-  padding: 10px;
+  padding: 10xpx;
   background-color: #3f0097;
   color: #ffffff;
-  border-radius: 10px;
+  border-radius: 10pxx;
 }
