@@ -19,7 +19,6 @@ const isReported = truth;
 
 
 
-
 // --^-- write your code here --^--
 
 console.log("Hello World!"); // logs into console
