@@ -16,9 +16,9 @@ based on the cost of the meal and the percentage of the tip.
 */
 
 const mealCost = 16.85;
-const tipPercentage = 90;
+const tipPercentage = 80;
 
-const tipAmount = (mealCost * tipPercentage) / 100;
+const tipAmount = (mealCost * tipPercentage / 100);
 
 const totalCost = mealCost + tipAmount;
 
