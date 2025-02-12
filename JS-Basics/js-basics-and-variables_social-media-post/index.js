@@ -1,7 +1,7 @@
 console.clear();
 
 /*
-1. Create the data for a small social media post. Create a constant variable for each data point listed below:
+1. Create the data for a small social media post. Createa a constant varible for each data point listed below:
 	- a title for the post
 	- text content for the post
 	- the number of likes the post has received
@@ -11,11 +11,20 @@ console.clear();
 
 // --v-- write your code here --v--
 
+const title = "Mein erster Post";
+const content = "Hier bin ich wandern.";
+const likes = 20;
+const userName = "Sof Block"
+const isReported = truth;
+
+
+
+
 // --^-- write your code here --^--
 
-/*
-2. Log all variables to the console. Then increase the number of likes by one and log the updated like count. Modify your code from step 1 if necessary.
-*/
+console.log("Hello World!"); // logs into console
+console.clear(); // clears console
+console.error("Error!"); // logs as error into console
 
 // --v-- write your code here --v--
 
