@@ -16,7 +16,3 @@ darkModeButton.addEventListener("click", () => {
 toggleModeButton.addEventListener("click", () => {
     bodyElement.classList.toggle("dark");
 });
-
-// if (Condition) { A } else { B }
-
-
