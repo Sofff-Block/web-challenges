@@ -10,6 +10,13 @@ console.clear();
 
 // --v-- write your code here --v--
 
+const title = "Bootcamp deluxe limited Edition";
+const author = "Felix Kirchhoff";
+let rating = 3.2;
+let numberOfSales = 450;
+
+console.log(title);
+
 // --^-- write your code here --^--
 
 /*
@@ -28,6 +35,19 @@ Then:
 
 // --v-- write your code here --v--
 
+console.log(`Title: ${title}`);
+console.log("Author: " + author);
+console.log("Rating: " + rating);
+console.log("Number of Sales: " + numberOfSales);
+
+console.log()
+
+numberOfSales = numberOfSales + 120;
+rating = 7;
+
+logbookData()
+
+
 // --^-- write your code here --^--
 
 /*
@@ -38,6 +58,14 @@ Then:
  - Replace the existing `console.log` statements with calls to this function.
  - Then, increase the number of sales two more times and log the updated details after each increase.
 */
+
+function logbookData() {
+  console.log(`Title: ${title}`);
+  console.log("Author: " + author);
+  console.log("Rating: " + rating);
+  console.log("Number of Sales: " + numberOfSales);
+  return logbookData;
+}
 
 // --v-- write your code here --v--
 
