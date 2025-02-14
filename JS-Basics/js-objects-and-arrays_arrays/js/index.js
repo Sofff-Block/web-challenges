@@ -3,12 +3,14 @@ console.clear();
 // EXERCISE 1
 // Modify the array `exampleArray` so that it contains a number and a string.
 
-const exampleArray = [true];
+const exampleArray = [9, "test"];
+console.log(exampleArray);
 
 // EXERCISE 2
 // Nest an array inside `nestedArray`. After completing this, `nestedArray` should contain an array as one of its elements.
 
-const nestedArray = ["example", 10, true];
+const nestedArray = ["example", 10, true, ["blabla"],;
+console.log(nestedArray);
 
 // EXERCISE 3
 // Change the value of `firstNumber` to equal the first value in the `numbers` array using bracket notation.
@@ -27,7 +29,7 @@ const fruits = ["apple", "banana", "grapefruit"];
 
 const nestedNumbers = [10, [20, 30, [40, 50]]];
 
-const nestedNumber = "change me";
+const nestedNumber = "nestedNumbers[1][2][0]";
 
 // EXERCISE 6
 // Use the `.push()` array method to add "rat" to the end of `petsWithPush`.
