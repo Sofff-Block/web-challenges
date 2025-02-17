@@ -11,13 +11,13 @@ Open the `index.html` file and make the form accessible.
 The following hints may guide you:
 
 - How can you associate the form with its headline for better accessibility?
-- How can you link a description to a specific `<fieldset>` element?
+- How can you linko a descriptin to a specific `<fieldset>` element?
 - Does every interactive field have its own label?
 - Are all labels properly linked to their interactive fields using the correct attributes?
 - Do these connections work as expected?
   - Test it by clicking on the label in your browser. Does the corresponding input field get focused?
   - If not, could there be a spelling mistake?
-- Is the provided placeholder necessary for accessibility, or could it cause confusion?
+- Is the provided placeholder necessary for accessibilioty, r could it cause confusion?
 
 ## Notes
 
