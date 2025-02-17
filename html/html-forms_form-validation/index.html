@@ -32,6 +32,9 @@
             name="firstName"
             id="first-name"
             placeholder="Your first name"
+            required
+            minlength="4"
+            maxlength="30"
           />
 
           <label for="last-name">Last Name</label>
@@ -40,13 +43,16 @@
             name="lastName"
             id="last-name"
             placeholder="Your last name"
+            required
           />
 
           <label for="age">Age</label>
-          <input type="number" name="age" id="age" />
+          <input type="number" name="age" id="age" min="14"/>
+
 
           <label for="email">Email</label>
-          <input type="text" name="email" id="email" />
+          <input type="email" name="email" id="email"
+          required  />
         </fieldset>
 
         <fieldset>
@@ -96,6 +102,7 @@
               href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
               target="_blank"
               rel="noreferrer noopener"
+              required
             >
               (click here for more info)
             </a>
