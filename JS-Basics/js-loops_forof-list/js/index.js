@@ -18,7 +18,9 @@ const programmingLanguages = [
 // --v-- write or modify code below this line --v--
 for (const program of programmingLanguages) {
   console.log(program);
-  const li = document.createElement("li")
+  const li = document.createElement("li");
+  li.textContent = program;
+  ol.append(li)
 }
 // --^-- write or modify code above this line --^--
 
