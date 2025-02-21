@@ -16,13 +16,10 @@ Let's build a small program to track your savings goals!
 */
 
 const startingBalance = 1000;
-const monthlyContribution = 50;
+const monthlyContribution = 25;
 const months = 12;
 
-startingBalance + (monthlyContribution * months)
-
 const totalSavings = startingBalance + (monthlyContribution * months)
-
 console.log(
    "After " + months + " months you will have saved " + totalSavings + "EUR."
 );
