@@ -10,14 +10,21 @@ console.clear();
 */
 
 // --v-- write your code here --v--
+const title = "My first post";
+const text = "Hello, this is my first post";
+let likes = 25;
+const author = "Sofia";
+const isReported = "true";
 
+console.log("title");
+console.log("text");
+console.log("likes");
+console.log("author");
+console.log("isReported");
+console.log("likes");
 
-const title = "My first SoMe Post";
-const text = "Hello world! Here I talk about my life";
-let numberOfLikes = 142 + 1;
-const author = "Sofff";
-const isReported = true;
-
+likes += 1;
+console.log(likes);
 
 // --^-- write your code here --^--
 
@@ -29,14 +36,6 @@ const isReported = true;
 
 // --v-- write your code here --v--
 
-console.log("title");
-console.log("text");
-console.log("numberOfLikes");
-console.log("author");
-console.log("isReported");
 
-numberOfLikes += 1;
-
-console.log("numberOfLikes");
 
 // --^-- write your code here --^--

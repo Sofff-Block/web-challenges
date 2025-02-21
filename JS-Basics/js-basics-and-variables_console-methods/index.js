@@ -20,15 +20,18 @@ console.clear();
 
 // Well done!
 
-let coding = "Happy Coding!";
+console.clear();
+
+let coding = "Happy Coding"
 console.log(coding);
 
-let hacking = "Happy hacking!"
-console.log(hacking);
+let hacking = "Happy Hacking!"
+console.log(hacking)
 
 console.clear();
 
-let error = "This is an error";
-console.log(error);
+
+
+
 
 
