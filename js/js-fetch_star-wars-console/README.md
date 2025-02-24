@@ -8,7 +8,7 @@ Have a look at the [`js/index.js`](./js/index.js) file: There is an `url` variab
 
 Inside of the `fetchData()` function, use the `url` variable to fetch data from the Star Wars API.
 
-Log the fetched data to the console and play around with it:
+Log the fetched dhata to te console and play around with it:
 
 - log the entire data object
 - log different values of the data object
